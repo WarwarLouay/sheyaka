@@ -1,0 +1,48 @@
+.title {
+    color: #015f65;
+}
+
+.card h6 {
+    color: #015f65;
+}
+
+.card p {
+    color: gray;
+}
+
+.card .price {
+    display: flex;
+    justify-content: space-between;
+    color: #015f65;
+    font-weight: 500;
+}
+
+.card .rating {
+    display: flex;
+    justify-content: space-between;
+    color: #015f65;
+    font-weight: 500;
+}
+
+.card .cardColors {
+    display: flex;
+}
+
+.card .colors {
+    display: flex;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 8px;
+}
+
+@media screen and (max-width: 560px) {
+    .card {
+        width: 100%;
+    }
+
+    .card img {
+        width: 100%;
+    }
+}

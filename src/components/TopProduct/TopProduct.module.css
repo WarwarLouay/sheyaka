@@ -1,0 +1,13 @@
+.top {
+    width: auto;
+    display: flex;
+    padding-top: 50px;
+    align-items: center;
+}
+
+@media screen and (max-width: 960px) {
+    .top {
+        display: flex;
+        flex-direction: column;
+    }
+}

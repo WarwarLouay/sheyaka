@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+hr {
+    border: 1px solid goldenrod;
+    z-index: -1;
+}
+
+@media screen and (max-width: 560px) {
+    body {
+        font-size: 10px !important;
+    }
+
+    h4,
+    h5 {
+        font-size: 12px !important;
+    }
+}

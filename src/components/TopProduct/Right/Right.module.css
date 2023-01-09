@@ -1,0 +1,224 @@
+.right {
+    width: 60%;
+    padding: 2%;
+}
+
+hr {
+    border: 1px solid goldenrod;
+}
+
+.title {
+    color: #015f65;
+    display: flex;
+    justify-content: space-between;
+    line-height: 10px;
+}
+
+.title p:last-child {
+    color: gray;
+}
+
+.title img {
+    width: 100px;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price .left header {
+    display: flex;
+}
+
+.price .left p {
+    line-height: 10px;
+}
+
+.price .left header p {
+    color: #015f65;
+    font-weight: 500;
+    padding: 0 15px;
+}
+
+.price .left header h5 {
+    color: red;
+}
+
+.color {
+    display: flex;
+    align-items: center;
+}
+
+.color b {
+    color: #015f65;
+}
+
+.color .colorBall {
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.color .colorBall.selected {
+    border: 2px solid goldenrod;
+}
+
+.size .header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.size .header b {
+    color: #015f65;
+}
+
+.size .header p {
+    color: #015f65;
+}
+
+.size .header span {
+    color: goldenrod;
+}
+
+.size .sizes {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+
+.size .sizes p {
+    border: 1px solid #015f65;
+    padding: 2px 20px;
+    color: #015f65;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.size .sizes .selected {
+    background-color: #015f65;
+    color: white;
+}
+
+.addToCart .header {
+    display: flex;
+    justify-content: space-between;
+    color: #015f65;
+}
+
+.addToCart .header b {
+    background-color: goldenrod;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+}
+
+input[type="radio"] {
+    height: 1rem;
+    width: 1rem;
+    margin-right: 0.5rem;
+}
+  
+input[type="radio"]:checked {
+    accent-color: #015f65;
+}
+
+.addToCart .body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.addToCart .body .qty {
+    display: flex;
+    color: #015f65;
+    width: 30%;
+    justify-content: space-between;
+}
+
+.addToCart .body .qty p {
+    background-color: #1111;
+    padding: 0 10px;
+}
+
+.addToCart .body .qty .changeQty {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.addToCart .body .qty .changeQty p {
+    background-color: #015f65;
+    color: white;
+}
+
+.addToCart .body .qty .changeQty p:first-child{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.addToCart .body .qty .changeQty p:last-child{
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.addToCart .body .button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.addToCart .body .button button {
+    background-color: #015f65;
+    border: 0;
+    outline: 0;
+    color: white;
+    padding: 0 25px;
+    font-weight: 600;
+}
+
+.addToCart .footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: bisque;
+    align-items: center;
+    height: 40px;
+}
+
+.addToCart .footer a,
+.addToCart .footer a:hover {
+    color: grey;
+}
+
+.addToCart .footer b {
+    color: goldenrod;
+}
+
+.ads {
+    background-color: aquamarine;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    padding: 18px;
+}
+
+.ads .start p {
+    background-color: #555;
+    color: white;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+.ads .end p {
+    background-color: white;
+    color: black;
+    padding: 0 10px;
+}
+
+@media screen and (max-width: 960px) {
+    .right {
+        width: 100%;
+    }
+}

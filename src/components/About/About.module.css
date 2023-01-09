@@ -1,0 +1,29 @@
+.about {
+    display: flex;
+    align-items: center;
+}
+
+.about .description {
+    color: #015f65;
+    width: 75%;
+}
+
+.about .image {
+    align-items: center;
+    display: flex;
+    width: 25%;
+    justify-content: space-around;
+}
+
+.about .image img {
+    width: 100px;
+}
+
+.about .image button {
+    background-color: #015f65;
+    color: white;
+    border: 0;
+    outline: 0;
+    padding: 0 15px;
+    font-weight: 500;
+}
